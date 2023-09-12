@@ -1,3 +1,12 @@
+import React, { useState } from 'react';
+import NavBar from './NavBar';
+import About from './About';
+import Contact from './Contact';
+import Portfolio from './Portfolio';
+import Resume from './Resume';
+import Footer from './Footer';
+
+
 export default function Home() {
     const[currentPage, setCurrentPage] = useState('About');
 
@@ -6,7 +15,7 @@ export default function Home() {
           return <About />;
         }
         if (currentPage === 'Contact') {
-          return <ContactMe />;
+          return <Contact />;
         }
         if (currentPage === 'Portfolio') {
           return <Portfolio />;

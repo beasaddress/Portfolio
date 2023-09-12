@@ -7,9 +7,9 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 
-import designDepo from '../utils/images/background-image3.jpg';
-import fiGlance from '../utils/images/background-image4.jpg';
-import jate from '../utils/images/logo.png';
+import designDepo from '../images/background-image3.jpg';
+import fiGlance from '../images/background-image4.jpg';
+import jate from '../images/logo.png';
 
 export default function Portfolio() {
     return (
