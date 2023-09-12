@@ -47,10 +47,9 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Nice to meet you</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            Hello! My name is Beatriz. I'm passionate about web development and I love showcasing my diverse skill set. As a full stack developer, I showcase my skills with Javascript using technologies such as Node.js, Express,js, MySql, NoSql, React to build interactive web pages and Progressive Web Apps.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

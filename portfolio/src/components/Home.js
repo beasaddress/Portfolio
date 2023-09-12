@@ -29,9 +29,12 @@ export default function Home() {
         <main>
           <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
           {renderPage()}
-        </main>
+        </main> 
+        
         <Footer />
+      
       </div>
+     
       );
 
 }

@@ -1,0 +1,6 @@
+@import './imports.css';
+
+@tailwind components;
+@tailwind utilities;
+
+

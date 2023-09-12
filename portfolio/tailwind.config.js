@@ -28,7 +28,9 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
     },
     fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+        segoe: ["Segoe UI", ...fontFamily.sans],
+        archivo: ["Archivo", ...fontFamily.sans],
     },
     keyframes: {
         "accordion-down": {
