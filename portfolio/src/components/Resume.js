@@ -8,9 +8,9 @@ import resume from '../utils/Resume.pdf';
 export default function Resume() {    
     const handleDownload = () => {
         const newEle = document.createElement('a');
-        const file = new Blob([resume], { type: application/pdf });
+        const file = new Blob([resume], { type: 'application/pdf' });
         newEle.href = URL.createObjectURL(file);
-        newEle.download = `BeatrizSResume${generateRandomId()}.pdf`;
+        newEle.download = `BeatrizSResume.pdf`;
         document.body.appendChild(newEle);
         newEle.click();
         newEle.remove();
@@ -25,3 +25,4 @@ export default function Resume() {
         </div>
     );
 }
+//${generateRandomId()} before .pdf

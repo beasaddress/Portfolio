@@ -22,7 +22,7 @@ function NavBar ({ currentPage, handlePageChange}) {
       <li className="nav-item">
         <a
           href="#portfolio"
-          onClick={() => handlePageChange('portfolio')}          
+          onClick={() => handlePageChange('Portfolio')}          
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
